@@ -40,8 +40,8 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.leetcode.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          # token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_leetcode: yes
-          plugin_leetcode_user: qfBjXmZ3hY  # <- your LeetCode username
+          plugin_leetcode_user: PuthearithKeng  # <- your LeetCode username
           plugin_leetcode_sections: solved, skills
