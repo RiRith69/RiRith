@@ -13,18 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # Achievements (detailed)
-      - name: Achievements (detailed)
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_display: detailed
-          plugin_achievements_limit: 10
-          plugin_achievements_threshold: C
-
       # Full-year Isometric Commit Calendar
       - name: Full-year calendar
         uses: lowlighter/metrics@latest
@@ -34,14 +22,3 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-
-      # LeetCode Stats
-      - name: LeetCode stats
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.leetcode.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_leetcode: yes
-          plugin_leetcode_user: PuthearithKeng  # <- your LeetCode username
-          plugin_leetcode_sections: solved, skills
