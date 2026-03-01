@@ -11,23 +11,23 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # Achievements 
-      - name: Achievements (compact)
+      # 🏆 Achievements (stable & safe)
+      - name: Achievements
         uses: lowlighter/metrics@v3.34
         with:
-          filename: metrics.plugin.achievements.compact.svg
+          filename: metrics.plugin.achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_limit: 0
+          plugin_achievements_display: detailed
+          plugin_achievements_limit: 1
           plugin_achievements_threshold: C
 
-      # Isometric Commit Calendar
-      - name: Full-year calendar
+      # 📅 Full-year Isometric Commit Calendar
+      - name: Isometric Commit Calendar
         uses: lowlighter/metrics@v3.34
         with:
-          filename: metrics.plugin.isocalendar.fullyear.svg
+          filename: metrics.plugin.isocalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
