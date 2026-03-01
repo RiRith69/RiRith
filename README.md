@@ -6,7 +6,7 @@
 
 # 🌟 **Hello, my name is Chren Sophearith** 🌟
 
-![Keng Puthearith](https://img.shields.io/badge/Keng_Puthearith-🔥%20Awesome-%23FFDD00?style=for-the-badge&logo=github)
+![Chren Sophearith](https://img.shields.io/badge/Chren Sophearith-🔥%20Awesome-%23FFDD00?style=for-the-badge&logo=github)
 
 
 # 💻 Tech Stack:
