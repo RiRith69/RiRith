@@ -36,14 +36,14 @@
 
 
 
-# 🏆 Achievements
-<img src="./metrics.plugin.achievements.svg" alt="Achievements" width="100%">
+<!-- # 🏆 Achievements
+ <img src="https://github.com/Kengpu/Kengpu/raw/main/metrics.plugin.achievements.compact.svg" width="500" style="border-radius: 20px;" /> -->
 
 # 📅 Yearly Commit Calendar
-<img src="./metrics.plugin.isocalendar.svg" alt="Commit Calendar" width="100%">
+<img src="https://github.com/Kengpu/Kengpu/raw/main/metrics.plugin.isocalendar.fullyear.svg" width="100%" style="border-radius: 20px;" />
 
 # 🧠 LeetCode Stats
-<img src="./metrics.plugin.leetcode.svg" alt="LeetCode Stats" width="100%">
+<img src="https://github.com/Kengpu/Kengpu/raw/main/metrics.plugin.leetcode.svg" width="100%" style="border-radius: 20px;" />
 
 
 <div align="center">
