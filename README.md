@@ -15,9 +15,7 @@
 
 <div align="center">
 
-![](https://github-readme-stats.vercel.app/api?username=kengputhearith&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=kengputhearith&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=kengputhearith&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+[![GitHub Streak](https://github-readme-streak-stats-fawn-three.vercel.app?user=RiRith69&theme=dark&hide_border=true)](https://git.io/streak-stats)
 
 </div>
 
@@ -25,24 +23,25 @@
 
 <div align="center">
 
-[![trophy](https://github-trophies.vercel.app/?username=RiRith&theme=radical&no-bg=true&no-frame=true)](https://github.com/lucthienphong1120/github-trophies)
+[![trophy](https://github-trophies.vercel.app/?username=RiRith69&theme=radical&no-bg=true&no-frame=true)](https://github.com/lucthienphong1120/github-trophies)
 
 
 </div>
 
 <div align="center">
 
-[![](https://visitcount.itsvg.in/api?id=kengputhearith&icon=0&color=0)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=RiRith69&icon=0&color=0)](https://visitcount.itsvg.in)
 
 </div>
 
 # 📅 Yearly Commit Calendar
-<img src="https://github.com/Kengpu/Kengpu/raw/main/metrics.plugin.isocalendar.fullyear.svg" width="100%" style="border-radius: 20px;" />
+# 📅 Yearly Commit Calendar
+<img src="https://github.com/RiRith69/RiRith69/raw/main/metrics.plugin.isocalendar.fullyear.svg" width="100%" style="border-radius: 20px;" />
 
 
 <div align="center">
   
-  [![](https://visitcount.itsvg.in/api?id=kengputhearith&icon=0&color=0)](https://visitcount.itsvg.in)
+  [![](https://visitcount.itsvg.in/api?id=RiRith69&icon=0&color=0)](https://visitcount.itsvg.in)
   
 </div>
 
