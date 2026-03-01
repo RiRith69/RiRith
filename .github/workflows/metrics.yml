@@ -1,8 +1,8 @@
 name: Generate GitHub Metrics
 on:
-  workflow_dispatch: # allows manual run
+  workflow_dispatch: # manual run
   schedule:
-    - cron: '0 * * * *' # runs daily at 00:00 UTC
+    - cron: '0 */12 * * *' # runs every 12 hours (change to '0 0 * * *' for daily)
 
 jobs:
   metrics:
@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # Achievements (detailed for stability)
+      # Achievements (detailed)
       - name: Achievements (detailed)
         uses: lowlighter/metrics@latest
         with:
@@ -34,3 +34,16 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+
+      # LeetCode Stats
+      - name: LeetCode stats
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.leetcode.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_leetcode: yes
+          plugin_leetcode_user: puthearith   # <- Replace with your LeetCode username
+          plugin_leetcode_sections: solved, skills
+          plugin_leetcode_limit_solved: 30
+          plugin_leetcode_limit_skills: 15
