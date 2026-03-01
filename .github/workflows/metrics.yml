@@ -14,14 +14,12 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.achievements.compact.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_achievements: yes
-          # only include badges you are likely to have
-          plugin_achievements_only: sponsor, member, developer
+          plugin_achievements_only: polyglot, stargazer, sponsor, deployer, member, maintainer, developer, scripter, packager, explorer, infographile, manager
           plugin_achievements_display: compact
-          plugin_achievements_threshold: 0
-
+          plugin_achievements_threshold: X
       # Full-year Isometric Commit Calendar
       - name: Full-year calendar
         uses: lowlighter/metrics@latest
