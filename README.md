@@ -24,7 +24,8 @@
 
 <div align="center">
 
-[![trophy](https://github-trophies.vercel.app/?username=Kengpu&theme=matrix&no-bg=true&no-frame=true)](https://github.com/lucthienphong1120/github-trophies)
+[![trophy](https://github-trophies.vercel.app/?username=Kengpu&theme=radical&no-bg=true&no-frame=true)](https://github.com/lucthienphong1120/github-trophies)
+
 
 </div>
 
